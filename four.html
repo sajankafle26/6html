@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    method=> Get(show data in url) , Post(hide data in url)
+    action => after submit where to go
+    <form action="" method="get">
+        Email : <input type="email" name="email">
+        <hr>
+        Password: <input type="password" name="password">
+        <hr>
+        Country: <select name="country">
+            <option>Nepal</option>
+            <option>India</option>
+            <option>Bhutan</option>
+            <option>Pak</option>
+            <option>USA</option>
+            <option value="dubai">UAE</option>
+        </select>
+        <hr>
+        Courses: <input type="checkbox" name="Courses" value="web"> Web Design
+        <input type="checkbox" name="Courses" value="php"> PHP 
+        <input type="checkbox" name="Courses" value="mern"> MERN
+        <hr>
+
+        Message: <textarea name="mss" rows="10" cols="40"></textarea>
+        <hr>
+        color: <input type="color" name="color">
+        <hr>
+        Domain: <input type="url" name="domain">
+        <hr>
+        Range: <input type="range" name="price">
+        <hr>
+        Date: <input type="date" name="date">
+        <hr>
+        Time: <input type="time" name="time">
+        <hr>
+
+        file: <input type="file" name="file">
+        <hr>
+        month <input type="month" name="month">
+        <hr>
+        week <input type="week" name="week">
+
+        <hr>
+        placeholder: <input type="text" name="n1" placeholder="ENter full Name">
+        <hr>
+        required: <input type="text" name="n2"   required>
+        <hr>
+        read only
+        <input type="text" name="n3" value="Nepal" readonly>
+        <hr>
+        hidden 
+        <input type="hidden" name="n4" value="india">
+        <hr>
+
+        Country List <input type="text" name="countryList" list="bcd">
+        <datalist id="bcd">
+            <option>Nepal</option>
+            <option>India</option>
+            <option>Bhutan</option>
+            <option>Tibet</option>
+            <option>Canada</option>
+        </datalist>
+        <hr>
+
+        Courses: <select name="study" size="10">
+            <optgroup label="FrontEnd">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>React Js</option>
+            </optgroup>
+            <optgroup label="BackEnd">
+                <option>PHP</option>
+                <option>Node</option>
+                <option>Python</option>
+                <option>Java</option>
+            </optgroup>
+        </select>
+        <hr>
+
+        <input type="reset" name="reset">
+        <button>Send data</button>
+        <input type="image" src="b.jpg" width="20" name="" id="">
+    </form>
+</body>
+</html>
